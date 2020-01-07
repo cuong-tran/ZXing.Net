@@ -59,15 +59,19 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("zxing.net for windows uwp")]
 #endif
 #if NETSTANDARD
+#if !NETSTANDARD2_0
 [assembly: AssemblyTitle("zxing.net for .net core standard")]
+#endif
 #endif
 #if NETFX_CORE && !WINDOWS_UWP
 [assembly: AssemblyTitle("zxing.net for windows rt")]
 #endif
+#if !NETSTANDARD2_0
 [assembly: AssemblyDescription("port of the java based barcode scanning library for .net (java zxing 23.03.2018 17:04:52)")]
 [assembly: AssemblyCompany("ZXing.Net Development")]
 [assembly: AssemblyProduct("ZXing.Net")]
-[assembly: AssemblyCopyright("Copyright © 2012")]
+[assembly: AssemblyCopyright("Copyright ï¿½ 2012")]
+#endif
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 #if !PORTABLE && !NETSTANDARD1_0
@@ -84,9 +88,11 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Revision and Build Numbers
 // by using the '*' as shown below:
 
+#if !NETSTANDARD2_0
 [assembly: AssemblyVersion("0.16.4.0")]
 #if !WindowsCE
 [assembly: AssemblyFileVersion("0.16.4.0")]
+#endif
 #endif
 
 [assembly: CLSCompliant(true)]

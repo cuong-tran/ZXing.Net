@@ -16,6 +16,7 @@
 
 namespace System.ComponentModel
 {
+#if !NETSTANDARD2_0
     /// <summary>
     /// Attribute is only for compatibility issues
     /// </summary>
@@ -26,4 +27,5 @@ namespace System.ComponentModel
         {
         }
     }
+#endif
 }

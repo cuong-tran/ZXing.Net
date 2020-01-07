@@ -16,6 +16,7 @@
 
 namespace System
 {
+#if !NETSTANDARD2_0
 	internal class TimeZoneInfo
 	{
 	   internal static TimeZoneInfo Local = null;
@@ -26,4 +27,5 @@ namespace System
          return dateTime;
       }
 	}
+#endif
 }

@@ -18,6 +18,7 @@ using System;
 
 namespace ZXing
 {
+#if !NETSTANDARD2_0
     /// <summary>
     /// Attribute is only for compatibility issues
     /// </summary>
@@ -25,4 +26,5 @@ namespace ZXing
     internal class SerializableAttribute : Attribute
     {
     }
+#endif
 }
