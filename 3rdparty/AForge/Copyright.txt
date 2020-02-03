@@ -1,7 +1,7 @@
 AForge.NET Framework
 http://www.aforgenet.com/framework
 ==================================
-
+
 Copyright © AForge.NET, 2006-2013
 contacts@aforgenet.com
 

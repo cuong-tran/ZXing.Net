@@ -1,4 +1,4 @@
-﻿namespace OpenCVDemo
+namespace OpenCVDemo
 {
     partial class OpenCVDemoForm
     {

@@ -1,4 +1,4 @@
-﻿// define USE_ORIGINAL_IMPLEMENTATION if the original implementation from Jonas Follesø should be used
+// define USE_ORIGINAL_IMPLEMENTATION if the original implementation from Jonas Follesø should be used
 // otherwise use a ZXing.Net standard implementation
 // #define USE_ORIGINAL_IMPLEMENTATION
 

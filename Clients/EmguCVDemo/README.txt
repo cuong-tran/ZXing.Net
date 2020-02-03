@@ -1,4 +1,4 @@
-﻿That demo shows the way of decoding barcodes from webcam image with the use of EmguCV.
+That demo shows the way of decoding barcodes from webcam image with the use of EmguCV.
 
 There are two ways to do that:
 * Use the default BarcodeReader from ZXing.Net which accepts a System.Drawing.Bitmap as the input (simplest way)

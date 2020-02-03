@@ -1,4 +1,4 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zxing.monotouch", "Source\lib\zxing.monotouch.csproj", "{BD0FA561-182D-4A89-BAA7-228693B07862}"

@@ -1,4 +1,4 @@
-﻿Function Decode_QR_Code_From_File()
+Function Decode_QR_Code_From_File()
    Dim reader As IBarcodeReader
    Dim res As Result
 

@@ -1,4 +1,4 @@
-﻿namespace ServiceDemo
+namespace ServiceDemo
 {
     partial class BarcodeScannerService
     {

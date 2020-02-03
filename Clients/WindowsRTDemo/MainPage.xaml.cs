@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using Windows.Devices.Enumeration;
 using Windows.Media.Capture;
 using Windows.Media.MediaProperties;

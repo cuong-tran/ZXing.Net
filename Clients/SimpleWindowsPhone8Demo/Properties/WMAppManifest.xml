@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
   <DefaultLanguage xmlns="" code="en-US" />
   <App xmlns="" ProductID="{a8bffd15-10e5-42f1-a3c5-e9dc90a47d12}" Title="SimpleWindowsPhone8Demo" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="SimpleWindowsPhone8Demo author" Description="Sample description" Publisher="SimpleWindowsPhone8Demo" PublisherID="{12173b36-fb57-4340-b965-56a054852973}">

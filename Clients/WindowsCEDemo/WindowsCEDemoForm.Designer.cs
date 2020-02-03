@@ -1,4 +1,4 @@
-﻿namespace WindowsCEDemoForm
+namespace WindowsCEDemoForm
 {
    partial class WindowsCEDemoForm
    {

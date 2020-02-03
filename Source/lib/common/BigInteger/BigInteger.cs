@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 #if !(WindowsCE || PORTABLE || NETSTANDARD1_0)
 using System.Runtime.Serialization;
 #endif

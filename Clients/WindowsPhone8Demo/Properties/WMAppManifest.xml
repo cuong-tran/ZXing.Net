@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
   <DefaultLanguage xmlns="" code="de-DE" />
   <App xmlns="" ProductID="{ba46155f-1b44-4de5-a625-bb351d14ad91}" Title="ZXing.net" RuntimeType="Silverlight" Version="0.11.0.1" Genre="apps.normal" Author="Fabian Henzler" Description="ZXing.net for Windows Phone 8 Demo" Publisher="zxingnet.codeplex.com" PublisherID="{9f0ea479-1b85-49ad-a243-0d0a960efc38}">

@@ -1,4 +1,4 @@
-﻿namespace EmguCVDemo
+namespace EmguCVDemo
 {
     partial class EmguCVDemoForm
     {

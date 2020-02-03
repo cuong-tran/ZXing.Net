@@ -1,4 +1,4 @@
-﻿using WindowsPhone8Demo.ViewModels;
+using WindowsPhone8Demo.ViewModels;
 using ZXing;
 
 namespace WindowsPhone8Demo.Models

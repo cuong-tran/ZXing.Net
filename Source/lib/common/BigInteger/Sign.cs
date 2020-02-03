@@ -1,4 +1,4 @@
-﻿namespace BigIntegerLibrary
+namespace BigIntegerLibrary
 {
 
     /// <summary>

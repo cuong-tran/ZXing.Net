@@ -1,4 +1,4 @@
-﻿using WindowsPhone8Demo.Resources;
+using WindowsPhone8Demo.Resources;
 
 namespace WindowsPhone8Demo
 {
