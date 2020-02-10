@@ -13,9 +13,9 @@
   <PropertyGroup>
     <AssemblyOriginatorKeyFile>..\..\Key\private.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
-<!--
+  <!--
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
--->
+  -->
   <PropertyGroup>
     <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -25,14 +25,16 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ZXing</RootNamespace>
     <AssemblyName>zxing.portable</AssemblyName>
-<!--
+    <!--
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Profile259</TargetFrameworkProfile>
--->
+    -->
     <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
     <TargetFramework>netstandard2.0</TargetFramework>
     <FileAlignment>512</FileAlignment>
+    <!--
     <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    -->
     <AssemblyTitle>zxing.net for .net core standard</AssemblyTitle>
     <Description>port of the java based barcode scanning library for .net (java zxing 23.03.2018 17:04:52)"</Description>
     <Company>ZXing.Net Development</Company>
@@ -353,9 +355,9 @@
       <Link>Properties\private.snk</Link>
     </None>
   </ItemGroup>
-<!--
+  <!--
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
--->
+  -->
   <PropertyGroup Condition=" !Exists('$(MSBuildThisFileDirectory)..\..\Key\private.snk') ">
     <PreBuildEvent Condition=" '$(OS)' == 'Unix' ">cp "$(MSBuildThisFileDirectory)..\..\Key\dummy-private.snk" "$(MSBuildThisFileDirectory)..\..\Key\private.snk"</PreBuildEvent>
     <PreBuildEvent Condition=" '$(OS)' != 'Unix' ">copy "$(MSBuildThisFileDirectory)..\..\Key\dummy-private.snk" "$(MSBuildThisFileDirectory)..\..\Key\private.snk"</PreBuildEvent>
